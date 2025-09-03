@@ -1,1 +1,12 @@
 # Teknolojik-Yemekler-Proje-1
+
+# 🍔 Teknolojik Yemekler
+
+Bu proje, HTML ve CSS kullanılarak geliştirilmiş bir fast food temalı web sitesi arayüzüdür.  
+Sayfa yapısı; banner alanı, kategori menüsü, ürün tanıtım kartları ve iletişim bilgilerini içeren footer bölümünden oluşmaktadır.
+
+Görsellerle zenginleştirilmiş bu statik site, kullanıcıya modern ve düzenli bir arayüz sunar.  
+Herhangi bir JavaScript işlevselliği şuanlık bulunmamakla birlikte, geliştirmeye açıktır.
+
+
+![Site Önizlemesi](https://i.ibb.co/NqLkvvK/section.png)
