@@ -1,0 +1,326 @@
+body {
+  background-color: #f8efe5;
+}
+
+.container {
+  background-color: #f8efe5;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Banner */
+.container .banner {
+  background-image: url('https://i.ibb.co/NqLkvvK/section.png');
+  background-size: cover;
+  background-repeat: repeat;
+  height: 500px;
+}
+
+.container .banner .banner-logo {
+  background-image: url('https://i.ibb.co/TDvLP5yY/Teknolojik-Yemekler.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 2.3rem;
+  margin-top: 1rem;
+}
+
+/* Menü */
+.container .menu {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  text-decoration: none;
+  align-items: center;
+  height: 3.1rem;
+  gap: 2rem;
+  max-width: 1000px;
+}
+
+.container .menu img {
+  width: 2rem;
+}
+
+.container .menu span {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.container .menu span a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
+
+.container .menu span:hover {
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.container .menu span a:hover {
+  color: white;
+}
+
+/* Ana bölüm */
+.container .main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f8efe5;
+  height: 350px;
+  margin: 0 170px auto;
+  padding-top: 1rem;
+}
+
+/* Banner alanı */
+.main-banner {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Sol kutu */
+.main-banner .left {
+  background-image: url('https://i.ibb.co/n8Cf9h5G/main-banner1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 330px;
+  width: 350px;
+  border-radius: 20px;
+  background-color: red;
+  padding-top: 0.1rem;
+  padding-left: 0.6rem;
+}
+
+.main-banner .left h1 {
+  color: white;
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
+.main-banner .left p {
+  color: white;
+  font-weight: 500;
+}
+
+.main-banner .left a {
+  color: red;
+  text-decoration: none;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 15px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.main-banner .left a:hover {
+  color: white;
+  background-color: brown;
+}
+
+/* Sağ kutuların kapsayıcısı */
+.main-banner .right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* 16px */
+  height: 330px; /* Aynı hizada olması için sabit yükseklik */
+}
+
+/* Sağdaki kutular */
+.main-banner .top {
+  background-color: #292929;
+  background-image: url(https://i.ibb.co/zTh7npmS/main-hamburger.png);
+  background-size: 10rem;
+  background-repeat: no-repeat;
+  background-position: right center;
+  width: 300px;
+  height: 157px; /* 330px - 16px (gap) = 314px / 2 = 157px */
+  border-radius: 15px;
+  color: white;
+  padding-top: 0.2rem;
+  padding-left: 1rem;
+  box-sizing: border-box; /* Padding dahil yüksekliği aşmasın */
+  font-weight: 500;
+}
+
+.main-banner .alt {
+  background-color: #ffeecc;
+  background-image: url('https://i.ibb.co/4r6m5J3/alt-backgroundd.png');
+  background-repeat: no-repeat;
+  background-size: 140%;
+  background-position: 60%;
+  width: 300px;
+  height: 157px; /* 330px - 16px (gap) = 314px / 2 = 157px */
+  border-radius: 15px;
+  color: black;
+  padding-top: 0.2rem;
+  padding-left: 1rem;
+  box-sizing: border-box; /* Padding dahil yüksekliği aşmasın */
+  font-weight: 500;
+}
+
+.main-banner .alt .alt-text {
+  color: red;
+}
+
+.main-banner .top a,
+.main-banner .alt a {
+  color: red;
+  text-decoration: none;
+  background-color: white;
+  padding: 0.4rem 0.6rem;
+  border-radius: 10px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 0.2rem;
+  transition: all 0.3s ease;
+}
+
+.main-banner .top a:hover,
+.main-banner .alt a:hover {
+  background-color: darkred;
+  color: white;
+}
+
+.main-menu .main-text {
+  text-align: center;
+}
+
+.container .main-menu .menu {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  text-decoration: none;
+  align-items: center;
+  height: 3.1rem;
+  gap: 2rem;
+  max-width: 1000px;
+}
+
+.container .main-menu .menu span:hover {
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.custom-menu-section {
+  background-color: white;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.custom-menu-container {
+  width: 600px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.custom-menu-item {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: calc((1000px - 40px) / 3); /* 3 item, 2x20px gap */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+}
+
+.custom-menu-item img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.custom-menu-item h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+}
+
+.custom-menu-item .rating {
+  font-size: 14px;
+  color: #666;
+}
+
+.custom-menu-item .price {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #000;
+}
+
+.custom-menu-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-menu-section .custom-menu-container img {
+  width: 12rem;
+}
+
+.footer {
+  background-color: black;
+  max-width: 1000px;
+  color: white;
+}
+
+.footer .top-div {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-right: 3rem;
+  padding-left: 4rem;
+}
+
+.footer .top-div img {
+  width: 8rem;
+}
+
+.footer .main-div {
+  line-height: 2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer .main-div ul li img {
+  padding-right: 0.5rem;
+}
+
+.footer .main-div span img {
+  width: 300px;
+}
+
+.footer .main-div ul li a {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}
+
+.footer .main-div ul {
+  list-style: none;
+}
+
+.footer .footer-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+  border-top: 1px white solid;
+}
