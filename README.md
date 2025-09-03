@@ -8,5 +8,5 @@ Sayfa yapısı; banner alanı, kategori menüsü, ürün tanıtım kartları ve 
 Görsellerle zenginleştirilmiş bu statik site, kullanıcıya modern ve düzenli bir arayüz sunar.  
 Herhangi bir JavaScript işlevselliği şuanlık bulunmamakla birlikte, geliştirmeye açıktır.
 
-
-![Site Önizlemesi](https://i.ibb.co/NqLkvvK/section.png)
+İndex Sayfasının Çıktısı
+![Site Önizlemesi](/Ekran_Ciktisi/index.jpg)
